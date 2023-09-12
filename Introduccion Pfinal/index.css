@@ -1,0 +1,138 @@
+body {
+    overflow-x: hidden;
+    background-image: url(imagenes.1/fondo1.jpg);
+    background-size: cover;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: antiquewhite;
+
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    
+}
+.logo h3
+{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.logo img
+{
+    width: 130px;
+    height: 120px;
+}
+nav a
+{
+    text-decoration: none;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        display: block;
+    }
+}
+
+nav a:hover
+{
+    background-color:black;
+    color: beige;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+body
+{
+    background-color: darkgrey;
+}
+
+.carta {
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 20px;
+  }
+
+  
+  .carta img {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .carta .contenido {
+    flex: 1;
+  }
+  
+  .carta h1 {
+    font-size: 40px;
+    color: black;
+  }
+
+  @media (max-width: 1200px) {
+    .carta {
+        display: block;
+        text-align: center;
+    }
+}
+  
+
+.servis
+{
+    background-color: rgb(13, 90, 129);
+    text-align: center;
+    padding: 20px;
+    color:black;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+
+.card
+{
+    margin: 10px auto auto auto;
+}
+
+
+.cartas
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+    .cartas {
+        display: block;
+        text-align: center;
+    }
+}
+
+.pie
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.logofo img
+{
+    border-radius: 40px;
+}

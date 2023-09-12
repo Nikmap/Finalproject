@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    
+}
+.logo h3
+{
+    font-size: 30px;
+}
+.logo img
+{
+    width: 130px;
+    height: 120px;
+}
+nav a
+{
+    text-decoration: none;
+    margin: auto;
+    font-size: 20px;
+    color: rgb(37, 80, 211);
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        display: block;
+    }
+}
+
+nav a:hover
+{
+    background-color:black;
+    color: beige;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+h1
+{
+    background-color: rgb(13, 90, 129);
+    text-align: center;
+    padding: 20px;
+    color:black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Galeria img {
+    width: 500px;
+    height: 400px;
+  }
+
+.Galeria {
+    display: inline-block;
+    margin: 10px;
+}
+.Galeria img {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media (max-width: 1200px) {
+    .gallery {
+        display: block;
+        text-align: center;
+    }
+}
+  
+.Galeria {
+   flex: 0 0 calc(33.33% - 20px);
+   margin-bottom: 20px;
+}
+
+.Galeria img {
+   transition: transform 0.3s ease;
+}
+  
+.Galeria img:hover {
+    transform: scale(1.1);
+}
+
+.pie
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.logofo img
+{
+    border-radius: 40px;
+}
+
+  
